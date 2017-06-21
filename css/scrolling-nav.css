@@ -61,6 +61,11 @@ html {
     background: #eee;
 }
 
+.intro-install {
+    padding-top: 120px;
+    text-align: center;
+}
+
 .footer {
     height: 50px;
     text-align: center;
@@ -117,9 +122,23 @@ html {
         width: 100%
     }
 
+    .title-box .divider-spacer {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        height: 1px;
+        background-color: rgba(0,0,0,0.2);
+        border: none;
+        width: 100%        
+    }
+
     .title-box .simple-text {
         margin-bottom: 10px;
         padding: 0px 20px 10px 20px;
+    }
+
+    .title-box .lead {
+        text-align: center;
+        margin-bottom: 0;
     }
 
 .btn-default {
@@ -128,6 +147,22 @@ html {
     margin-right: 70px;
 }
 
+.well {
+    text-align: left;
+    height: 100%
+}
+
+pre, code {
+    font-family: monospace, monospace;
+    font-size: 1em;
+    color: #c7254e;
+    line-height: 17px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    white-space: pre;
+    overflow: scroll;
+}
 /* Animations */
 
 .button-animation {
@@ -195,5 +230,109 @@ html {
 @media(max-width:710px) {
     .intro-section {
         padding-top: 80px;
+    }
+}
+
+
+/* teste */
+
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+@media(max-width:1200px) {
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
     }
 }
