@@ -29,7 +29,8 @@ html {
 }
 
 .intro-section {
-    padding-top: 140px;
+    padding-top: 50px;
+    padding-bottom: 223px;
     text-align: center;
 
     background-image: url(../img/bg.png);
@@ -39,6 +40,12 @@ html {
 
     height: 100%;
 }
+
+	@media(max-width: 490px) {
+	    .intro-section {
+    		padding-top: 30px;
+	    }
+	}
 
 .about-section {
     padding-top: 140px;
@@ -141,6 +148,18 @@ html {
         margin-bottom: 0;
     }
 
+	@media(max-width: 375px) {
+	    .intro-section .btn-default {
+		    color: #fff;
+		    background-color: #606060;
+		    border-color: #606060;
+		    margin: 0px;
+	        margin-left: 0px;
+    		margin-right: 0px;
+	    }
+	}
+
+
 .btn-default {
     margin-bottom: 30px;
     margin-left: 70px;
@@ -226,13 +245,6 @@ pre, code {
         margin-top: 0px;
     }
 }   
-
-@media(max-width:710px) {
-    .intro-section {
-        padding-top: 80px;
-    }
-}
-
 
 /* teste */
 
